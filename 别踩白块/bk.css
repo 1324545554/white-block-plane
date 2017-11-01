@@ -1,0 +1,30 @@
+/*
+* @Author: Marte
+* @Date:   2017-10-21 13:28:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-11-01 12:52:37
+*/
+body{
+    background:black;
+    margin:0;
+    padding:0;
+}
+#c1{
+    background:white;
+}
+#div1{
+    background:rgba(128,56,125,0.6);
+    line-height:600px;
+    text-align:center;
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.score{
+    background: #ccc;
+    background-image: -webkit-radial-gradient(white, gray);
+    font-size:28px;
+    height:40px;
+    // text-align:center;
+}

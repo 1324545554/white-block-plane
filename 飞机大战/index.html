@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>全民飞机大战</title>
+        <style type="text/css">
+        	*{margin:0;padding:0;}
+        	body{width: 100%;height: 100%; overflow: hidden;}
+    		canvas{margin:0 auto;display: block;}
+        </style>
+    </head>
+    <body>
+    <canvas id='canvas'></canvas>
+    <source>
+		<!-- 子弹 -->
+    	<audio src="music/zd.mp3" id='zd'></audio>
+		<!-- 背景 -->
+    	<audio src="music/bgm.mp3" id='bgm' loop></audio>
+    	<!-- 爆炸 -->
+        <audio src="music/bz.mp3" id='bz'></audio>
+        <!-- 游戏结束 -->
+    	<audio src="music/gameover.mp3" id='gover' loop></audio>
+    <source>
+    <script type="text/javascript" src = 'js/Game.js'></script>
+    <script type="text/javascript" src = 'js/Myplane.js'></script>
+    <script type="text/javascript" src = 'js/Background.js'></script>
+    <script type="text/javascript" src = 'js/Bullet.js'></script>
+    <script type="text/javascript" src = 'js/EnemyPlane.js'></script>
+    <script type="text/javascript" src = 'js/Bomb.js'></script>
+    <script type="text/javascript" src = 'js/SceneManager.js'></script>
+    <script type="text/javascript">
+    	var game = new Game();
+    </script>
+    </body>
+</html>
