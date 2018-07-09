@@ -1,4 +1,4 @@
-// 创建一个构造函数
+// 创建构造函数
 function Game(){
     this.oC = document.querySelector("#c1");
     this.oDiv = document.querySelector("#div1");
